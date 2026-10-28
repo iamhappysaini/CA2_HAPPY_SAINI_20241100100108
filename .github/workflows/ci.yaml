@@ -9,9 +9,6 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: CA2_HAPPY_SAINI_202401100100108
 
     steps:
       - name: Checkout repository
